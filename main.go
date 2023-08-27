@@ -6,11 +6,11 @@ import (
 )
 
 var confernceName = "Golang Booking-App"
-var booking = make([]map[string]string, 0)
 
 const confernceTicket int = 50
 
 var remainingTicket uint = 50
+var booking = make([]map[string]string, 0)
 
 func main() {
 
